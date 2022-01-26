@@ -1,0 +1,6 @@
+-R . StateMachines
+-arg -w
+-arg all
+Preliminaries.v
+Concepts.v
+MachineTheory.v
