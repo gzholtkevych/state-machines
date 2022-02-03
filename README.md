@@ -5,13 +5,13 @@ The repository contains the file `_CoqProject` describing the structure of the p
 **Files dependencies**:
 
 ```
-  Preliminaries
+  Preliminaries (contains some preliminary definitions and facts)
     |
-    + -- Concepts
+    + -- Concepts (contains main definitions)
            |
-           + -- Examples
+           + -- Examples (contains important examples)
            |
-           + -- MachineTheory
+           + -- MachineTheory (contains facts about machines with their proofs)
            |
-           + -- AcceptorTheory
+           + -- AcceptorTheory (contains facts about acceptors with their proofs)
 ```
