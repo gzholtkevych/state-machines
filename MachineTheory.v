@@ -4,15 +4,9 @@ Import ListNotations.
 Import MACHINE.
 
 Section MachineTheory.
-<<<<<<< HEAD
 Variable m : Machine.
 
 (* Rest law *)
-=======
-Variables (m : Machine).
-
-(* State conservation law *)
->>>>>>> f48086816607aa4b1a7b59f08da7b3a0b4723b1d
 Definition act0 (f : state m → list (input m) → state m)
 := ∀ s : state m, f s [] = s.
 (* Single impact law *)
@@ -37,7 +31,6 @@ Proof.
   - exact (IHu' (pass m s i)).
 Qed.
 
-<<<<<<< HEAD
 Section UniquenessTheorem.
 Variable run' : state m → list (input m) → state m. 
 Hypotheses (H0 : act0 run')
@@ -48,22 +41,11 @@ Theorem run_uniqueness : ∀ (s : state m) (u : list (input m)),
   run' s u = run m s u.
 Proof.
   intros. revert s.
-=======
-Theorem run_uniqueness : ∀ (f : state m → list (input m) → state m),
-  act0 f → act1 f → actC f 
-    → ∀ (s : state m) (u : list (input m)), f s u = run m s u.
-Proof.
-  intros * H0 H1 HC *. revert s.
->>>>>>> f48086816607aa4b1a7b59f08da7b3a0b4723b1d
   induction u as [| i u' IHu]; intro; simpl.
   - apply H0.
   - assert (H : [i] ++ u' = i :: u'). { trivial. }
     rewrite <- H. rewrite (HC s [i] u').
     rewrite <- (H1 s). apply IHu.
 Qed.
-<<<<<<< HEAD
 End UniquenessTheorem.
 End MachineTheory.
-=======
-End MachineTheory.
->>>>>>> f48086816607aa4b1a7b59f08da7b3a0b4723b1d

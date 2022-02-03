@@ -21,8 +21,7 @@ Module ACCEPTOR.
 Import MACHINE.
 Structure Acceptor {m : Machine} := mkAcceptor
 { acceptant : state m → Prop }.
-Definition acceptable
-             {m : Machine}
+Definition acceptable {m : Machine}
              (a : Acceptor)
              (s : state m) : list (input m) → Prop
 := fun u => acceptant a (run m s u).
