@@ -1,0 +1,81 @@
+DIGEST 6cb2bd34a48918f1922e21dc339f8c1a
+FStateMachines.Concepts
+R15:41 StateMachines.Preliminaries <> <> lib
+mod 75:81 <> MACHINE
+constr 105:113 MACHINE mkMachine
+rec 94:100 MACHINE Machine
+proj 117:121 MACHINE input
+proj 131:135 MACHINE state
+proj 145:148 MACHINE pass
+proj 180:193 MACHINE input_fin_cert
+R157:161 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R152:156 StateMachines.Concepts <> state:3 meth
+R167:171 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R162:166 StateMachines.Concepts <> input:2 meth
+R172:176 StateMachines.Concepts <> state:3 meth
+R197:204 StateMachines.Preliminaries <> Finitary class
+R206:210 StateMachines.Concepts <> input:2 meth
+def 224:226 MACHINE run
+R233:239 StateMachines.Concepts MACHINE Machine rec
+binder 229:229 <> m:6
+R258:262 StateMachines.Concepts MACHINE state proj
+R264:264 StateMachines.Concepts <> m:6 var
+binder 254:254 <> s:7
+R283:286 Coq.Init.Datatypes <> list ind
+R289:293 StateMachines.Concepts MACHINE input proj
+R295:295 StateMachines.Concepts <> m:6 var
+binder 279:279 <> u:8
+R308:308 StateMachines.Concepts <> u:8 var
+R315:316 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R326:326 StateMachines.Concepts <> s:7 var
+R345:348 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R355:357 StateMachines.Concepts <> run:9 def
+R362:365 StateMachines.Concepts MACHINE pass proj
+R367:367 StateMachines.Concepts <> m:6 var
+R369:369 StateMachines.Concepts <> s:7 var
+R359:359 StateMachines.Concepts <> m:6 var
+R386:392 StateMachines.Concepts MACHINE <> mod
+mod 404:411 <> ACCEPTOR
+constr 466:475 ACCEPTOR mkAcceptor
+rec 440:447 ACCEPTOR Acceptor
+proj 479:487 ACCEPTOR acceptant
+R454:460 StateMachines.Concepts MACHINE Machine rec
+binder 450:450 <> m:11
+R498:502 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R491:495 StateMachines.Concepts MACHINE state proj
+R497:497 StateMachines.Concepts <> m:11 var
+def 522:531 ACCEPTOR acceptable
+R551:557 StateMachines.Concepts MACHINE Machine rec
+binder 547:547 <> m:14
+R578:585 StateMachines.Concepts ACCEPTOR Acceptor rec
+binder 574:574 <> a:15
+R606:610 StateMachines.Concepts MACHINE state proj
+R612:612 StateMachines.Concepts <> m:14 var
+binder 602:602 <> s:16
+R631:635 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R617:620 Coq.Init.Datatypes <> list ind
+R623:627 StateMachines.Concepts MACHINE input proj
+R629:629 StateMachines.Concepts <> m:14 var
+binder 648:648 <> u:17
+R653:661 StateMachines.Concepts ACCEPTOR acceptant proj
+R666:668 StateMachines.Concepts MACHINE run def
+R670:670 StateMachines.Concepts <> m:14 var
+R672:672 StateMachines.Concepts <> s:16 var
+R674:674 StateMachines.Concepts <> u:17 var
+R663:663 StateMachines.Concepts <> a:15 var
+R682:689 StateMachines.Concepts ACCEPTOR <> mod
+mod 701:710 <> TRANSDUCER
+constr 767:778 TRANSDUCER mkTransducer
+rec 739:748 TRANSDUCER Transducer
+proj 782:787 TRANSDUCER output
+proj 797:804 TRANSDUCER response
+proj 829:843 TRANSDUCER output_fin_cert
+R755:761 StateMachines.Concepts MACHINE Machine rec
+binder 751:751 <> m:18
+R815:819 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R808:812 StateMachines.Concepts MACHINE state proj
+R814:814 StateMachines.Concepts <> m:18 var
+R820:825 StateMachines.Concepts <> output:20 meth
+R847:854 StateMachines.Preliminaries <> Finitary class
+R856:861 StateMachines.Concepts <> output:20 meth
+R871:880 StateMachines.Concepts TRANSDUCER <> mod

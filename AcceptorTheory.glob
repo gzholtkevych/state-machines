@@ -1,0 +1,145 @@
+DIGEST c633cf80274be7f90ff8f15dbe5bf223
+FStateMachines.AcceptorTheory
+R15:41 StateMachines.Preliminaries <> <> lib
+R59:80 StateMachines.Concepts <> <> lib
+R98:124 StateMachines.MachineTheory <> <> lib
+sec 191:204 <> AcceptorTheory
+var 218:218 AcceptorTheory m
+var 232:232 AcceptorTheory a
+R222:228 StateMachines.Concepts MACHINE Machine rec
+R237:244 StateMachines.Concepts ACCEPTOR Acceptor rec
+R246:246 StateMachines.AcceptorTheory <> m:1 var
+def 262:265 <> acc0
+R279:283 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R272:276 StateMachines.Concepts MACHINE state proj
+R278:278 StateMachines.AcceptorTheory <> AcceptorTheory.m var
+R298:302 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R284:287 Coq.Init.Datatypes <> list ind
+R290:294 StateMachines.Concepts MACHINE input proj
+R296:296 StateMachines.AcceptorTheory <> AcceptorTheory.m var
+binder 268:268 <> f:3
+R312:315 Coq.Unicode.Utf8_core <> ::type_scope:'∀'_x_'..'_x_','_x not
+R327:328 Coq.Unicode.Utf8_core <> ::type_scope:'∀'_x_'..'_x_','_x not
+R320:324 StateMachines.Concepts MACHINE state proj
+R326:326 StateMachines.AcceptorTheory <> AcceptorTheory.m var
+binder 316:316 <> s:4
+R335:339 Coq.Unicode.Utf8_core <> ::type_scope:x_'↔'_x not
+R329:329 StateMachines.AcceptorTheory <> f:3 var
+R333:334 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R331:331 StateMachines.AcceptorTheory <> s:4 var
+R340:348 StateMachines.Concepts ACCEPTOR acceptant proj
+R352:352 StateMachines.AcceptorTheory <> s:4 var
+R350:350 StateMachines.AcceptorTheory <> AcceptorTheory.a var
+def 366:369 <> accT
+R383:387 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R376:380 StateMachines.Concepts MACHINE state proj
+R382:382 StateMachines.AcceptorTheory <> AcceptorTheory.m var
+R402:406 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R388:391 Coq.Init.Datatypes <> list ind
+R394:398 StateMachines.Concepts MACHINE input proj
+R400:400 StateMachines.AcceptorTheory <> AcceptorTheory.m var
+binder 372:372 <> f:5
+R416:420 Coq.Unicode.Utf8_core <> ::type_scope:'∀'_x_'..'_x_','_x not
+R458:465 Coq.Unicode.Utf8_core <> ::type_scope:'∀'_x_'..'_x_','_x not
+R425:429 StateMachines.Concepts MACHINE state proj
+R431:431 StateMachines.AcceptorTheory <> AcceptorTheory.m var
+binder 421:421 <> s:6
+R444:447 Coq.Init.Datatypes <> list ind
+R450:454 StateMachines.Concepts MACHINE input proj
+R456:456 StateMachines.AcceptorTheory <> AcceptorTheory.m var
+binder 435:436 <> u':7
+R444:447 Coq.Init.Datatypes <> list ind
+R450:454 StateMachines.Concepts MACHINE input proj
+R456:456 StateMachines.AcceptorTheory <> AcceptorTheory.m var
+binder 438:440 <> u'':8
+R481:485 Coq.Unicode.Utf8_core <> ::type_scope:x_'↔'_x not
+R466:466 StateMachines.AcceptorTheory <> f:5 var
+R473:476 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R471:472 StateMachines.AcceptorTheory <> u':7 var
+R477:479 StateMachines.AcceptorTheory <> u'':8 var
+R468:468 StateMachines.AcceptorTheory <> s:6 var
+R486:486 StateMachines.AcceptorTheory <> f:5 var
+R501:503 StateMachines.AcceptorTheory <> u'':8 var
+R489:491 StateMachines.Concepts MACHINE run def
+R493:493 StateMachines.AcceptorTheory <> AcceptorTheory.m var
+R495:495 StateMachines.AcceptorTheory <> s:6 var
+R497:498 StateMachines.AcceptorTheory <> u':7 var
+prf 514:524 <> acceptable0
+R528:531 StateMachines.AcceptorTheory <> acc0 def
+R534:543 StateMachines.Concepts ACCEPTOR acceptable def
+R545:545 StateMachines.AcceptorTheory <> AcceptorTheory.a var
+R563:566 StateMachines.AcceptorTheory <> acc0 def
+prf 604:614 <> acceptableT
+R618:621 StateMachines.AcceptorTheory <> accT def
+R624:633 StateMachines.Concepts ACCEPTOR acceptable def
+R635:635 StateMachines.AcceptorTheory <> AcceptorTheory.a var
+R655:658 StateMachines.AcceptorTheory <> accT def
+R783:786 StateMachines.MachineTheory <> runC thm
+R788:788 StateMachines.AcceptorTheory <> AcceptorTheory.m var
+R783:786 StateMachines.MachineTheory <> runC thm
+R788:788 StateMachines.AcceptorTheory <> AcceptorTheory.m var
+R812:821 StateMachines.Concepts ACCEPTOR acceptable def
+sec 859:875 AcceptorTheory UniquenessTheorem
+var 887:897 AcceptorTheory.UniquenessTheorem acceptable'
+R908:912 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R901:905 StateMachines.Concepts MACHINE state proj
+R907:907 StateMachines.AcceptorTheory <> AcceptorTheory.m var
+R927:931 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R913:916 Coq.Init.Datatypes <> list ind
+R919:923 StateMachines.Concepts MACHINE input proj
+R925:925 StateMachines.AcceptorTheory <> AcceptorTheory.m var
+var 951:952 AcceptorTheory.UniquenessTheorem H0
+var 986:987 AcceptorTheory.UniquenessTheorem HT
+R956:959 StateMachines.AcceptorTheory <> acc0 def
+R961:971 StateMachines.AcceptorTheory <> AcceptorTheory.UniquenessTheorem.acceptable' var
+R991:994 StateMachines.AcceptorTheory <> accT def
+R996:1006 StateMachines.AcceptorTheory <> AcceptorTheory.UniquenessTheorem.acceptable' var
+prf 1019:1039 <> acceptable_uniqueness
+R1043:1047 Coq.Unicode.Utf8_core <> ::type_scope:'∀'_x_'..'_x_','_x not
+R1080:1084 Coq.Unicode.Utf8_core <> ::type_scope:'∀'_x_'..'_x_','_x not
+R1052:1056 StateMachines.Concepts MACHINE state proj
+R1058:1058 StateMachines.AcceptorTheory <> AcceptorTheory.m var
+binder 1048:1048 <> s:12
+R1066:1069 Coq.Init.Datatypes <> list ind
+R1072:1076 StateMachines.Concepts MACHINE input proj
+R1078:1078 StateMachines.AcceptorTheory <> AcceptorTheory.m var
+binder 1062:1062 <> u:13
+R1100:1104 Coq.Unicode.Utf8_core <> ::type_scope:x_'↔'_x not
+R1085:1095 StateMachines.AcceptorTheory <> AcceptorTheory.UniquenessTheorem.acceptable' var
+R1097:1097 StateMachines.AcceptorTheory <> s:12 var
+R1099:1099 StateMachines.AcceptorTheory <> u:13 var
+R1105:1114 StateMachines.Concepts ACCEPTOR acceptable def
+R1120:1120 StateMachines.AcceptorTheory <> u:13 var
+R1118:1118 StateMachines.AcceptorTheory <> s:12 var
+R1116:1116 StateMachines.AcceptorTheory <> AcceptorTheory.a var
+R1205:1206 StateMachines.AcceptorTheory <> AcceptorTheory.UniquenessTheorem.H0 var
+R1205:1206 StateMachines.AcceptorTheory <> AcceptorTheory.UniquenessTheorem.H0 var
+R1234:1236 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1228:1231 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R1225:1225 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R1227:1227 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R1238:1241 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1234:1236 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1228:1231 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R1225:1225 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R1227:1227 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R1238:1241 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1302:1303 StateMachines.AcceptorTheory <> AcceptorTheory.UniquenessTheorem.HT var
+R1307:1307 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R1309:1309 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R1302:1303 StateMachines.AcceptorTheory <> AcceptorTheory.UniquenessTheorem.HT var
+R1307:1307 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R1309:1309 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R1302:1303 StateMachines.AcceptorTheory <> AcceptorTheory.UniquenessTheorem.HT var
+R1307:1307 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R1309:1309 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R1342:1345 StateMachines.Concepts MACHINE pass proj
+R1347:1347 StateMachines.AcceptorTheory <> AcceptorTheory.m var
+R1342:1345 StateMachines.Concepts MACHINE pass proj
+R1347:1347 StateMachines.AcceptorTheory <> AcceptorTheory.m var
+R1364:1367 StateMachines.MachineTheory <> run1 thm
+R1364:1367 StateMachines.MachineTheory <> run1 thm
+R1364:1367 StateMachines.MachineTheory <> run1 thm
+R1430:1439 StateMachines.Concepts ACCEPTOR acceptable def
+R1482:1498 StateMachines.AcceptorTheory AcceptorTheory.UniquenessTheorem <> sec
+R1505:1518 StateMachines.AcceptorTheory AcceptorTheory <> sec

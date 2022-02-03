@@ -1,0 +1,34 @@
+DIGEST 5bd2c8bc2b8ee972524973f049c00272
+FStateMachines.Preliminaries
+R15:18 Coq.Unicode.Utf8 <> <> lib
+R36:45 Coq.Lists.List <> <> lib
+ind 78:85 <> Finitary
+constr 108:115 <> fin_cert
+rec 78:85 <> Finitary
+proj 108:115 <> fin_cert
+binder 88:88 <> T:1
+R119:122 Coq.Unicode.Utf8_core <> ::type_scope:'∃'_x_'..'_x_','_x not
+R133:134 Coq.Unicode.Utf8_core <> ::type_scope:'∃'_x_'..'_x_','_x not
+R127:130 Coq.Init.Datatypes <> list ind
+R132:132 StateMachines.Preliminaries <> T:1 var
+binder 123:123 <> e:3
+R135:138 Coq.Unicode.Utf8_core <> ::type_scope:'∀'_x_'..'_x_','_x not
+R144:145 Coq.Unicode.Utf8_core <> ::type_scope:'∀'_x_'..'_x_','_x not
+R143:143 StateMachines.Preliminaries <> T:1 var
+binder 139:139 <> x:4
+R146:147 Coq.Lists.List <> In def
+R151:151 StateMachines.Preliminaries <> e:3 var
+R149:149 StateMachines.Preliminaries <> x:4 var
+inst 164:176 <> bool_fin_cert
+R180:187 StateMachines.Preliminaries <> Finitary class
+R189:192 Coq.Init.Datatypes <> bool ind
+R211:211 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R216:217 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R223:223 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R212:215 Coq.Init.Datatypes <> true constr
+R218:222 Coq.Init.Datatypes <> false constr
+R211:211 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R216:217 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R223:223 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R212:215 Coq.Init.Datatypes <> true constr
+R218:222 Coq.Init.Datatypes <> false constr
