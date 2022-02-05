@@ -18,13 +18,12 @@ End MACHINE.
 
 
 Module ACCEPTOR.
-Import MACHINE.
-Structure Acceptor {m : Machine} := mkAcceptor
-{ acceptant : state m → Prop }.
-Definition acceptable {m : Machine}
+Structure Acceptor {m : MACHINE.Machine} := mkAcceptor
+{ acceptant : MACHINE.state m → Prop }.
+Definition acceptable {m : MACHINE.Machine}
              (a : Acceptor)
-             (s : state m) : list (input m) → Prop
-:= fun u => acceptant a (run m s u).
+             (s : MACHINE.state m) : list (MACHINE.input m) → Prop
+:= fun u => acceptant a (MACHINE.run m s u).
 End ACCEPTOR.
 
 
@@ -37,3 +36,14 @@ Structure Transducer {m : Machine} := mkTransducer
 }.
 
 End TRANSDUCER.
+
+Notation Machine := MACHINE.Machine               (only parsing).
+Notation mkMachine := MACHINE.mkMachine           (only parsing).
+Notation input := MACHINE.input                   (only parsing).
+Notation state := MACHINE.state                   (only parsing).
+Notation pass := MACHINE.pass                     (only parsing).
+Notation run := MACHINE.run                       (only parsing).
+Notation Acceptor := ACCEPTOR.Acceptor            (only parsing).
+Notation mkAcceptor := ACCEPTOR.mkAcceptor        (only parsing).
+Notation acceptant := ACCEPTOR.acceptant          (only parsing).
+Notation acceptable := ACCEPTOR.acceptable        (only parsing).

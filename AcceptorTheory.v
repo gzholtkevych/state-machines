@@ -2,8 +2,6 @@ Require Import StateMachines.Preliminaries.
 Require Import StateMachines.Concepts.
 Require Import StateMachines.MachineTheory.
 Import ListNotations.
-Import MACHINE.
-Import ACCEPTOR.
 
 Section AcceptorTheory.
 Variables (m : Machine) (a : @Acceptor m).

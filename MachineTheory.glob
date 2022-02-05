@@ -1,175 +1,175 @@
-DIGEST adee4798ebf416a41d81f7d50ef8cfd6
+DIGEST 08d525481a724402cdcc0af8c0552815
 FStateMachines.MachineTheory
 R15:41 StateMachines.Preliminaries <> <> lib
 R59:80 StateMachines.Concepts <> <> lib
-sec 130:142 <> MachineTheory
-var 154:154 MachineTheory m
-R158:164 StateMachines.Concepts MACHINE Machine rec
-def 194:197 <> act0
-R211:215 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
-R204:208 StateMachines.Concepts MACHINE state proj
-R210:210 StateMachines.MachineTheory <> MachineTheory.m var
-R230:234 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
-R216:219 Coq.Init.Datatypes <> list ind
-R222:226 StateMachines.Concepts MACHINE input proj
-R228:228 StateMachines.MachineTheory <> MachineTheory.m var
-R235:239 StateMachines.Concepts MACHINE state proj
-R241:241 StateMachines.MachineTheory <> MachineTheory.m var
-binder 200:200 <> f:2
-R247:250 Coq.Unicode.Utf8_core <> ::type_scope:'∀'_x_'..'_x_','_x not
-R262:263 Coq.Unicode.Utf8_core <> ::type_scope:'∀'_x_'..'_x_','_x not
-R255:259 StateMachines.Concepts MACHINE state proj
-R261:261 StateMachines.MachineTheory <> MachineTheory.m var
-binder 251:251 <> s:3
-R270:272 Coq.Init.Logic <> ::type_scope:x_'='_x not
-R264:264 StateMachines.MachineTheory <> f:2 var
-R268:269 Coq.Lists.List ListNotations ::list_scope:'['_']' not
-R266:266 StateMachines.MachineTheory <> s:3 var
-R273:273 StateMachines.MachineTheory <> s:3 var
-def 311:314 <> act1
-R328:332 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
-R321:325 StateMachines.Concepts MACHINE state proj
-R327:327 StateMachines.MachineTheory <> MachineTheory.m var
-R347:351 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
-R333:336 Coq.Init.Datatypes <> list ind
-R339:343 StateMachines.Concepts MACHINE input proj
-R345:345 StateMachines.MachineTheory <> MachineTheory.m var
-R352:356 StateMachines.Concepts MACHINE state proj
-R358:358 StateMachines.MachineTheory <> MachineTheory.m var
-binder 317:317 <> f:4
-R364:368 Coq.Unicode.Utf8_core <> ::type_scope:'∀'_x_'..'_x_','_x not
-R394:396 Coq.Unicode.Utf8_core <> ::type_scope:'∀'_x_'..'_x_','_x not
-R373:377 StateMachines.Concepts MACHINE state proj
-R379:379 StateMachines.MachineTheory <> MachineTheory.m var
-binder 369:369 <> s:5
-R387:391 StateMachines.Concepts MACHINE input proj
-R393:393 StateMachines.MachineTheory <> MachineTheory.m var
-binder 383:383 <> i:6
-R404:406 Coq.Init.Logic <> ::type_scope:x_'='_x not
-R397:397 StateMachines.MachineTheory <> f:4 var
-R401:401 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
-R403:403 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
-R402:402 StateMachines.MachineTheory <> i:6 var
-R399:399 StateMachines.MachineTheory <> s:5 var
-R407:410 StateMachines.Concepts MACHINE pass proj
-R412:412 StateMachines.MachineTheory <> MachineTheory.m var
-R414:414 StateMachines.MachineTheory <> s:5 var
-R416:416 StateMachines.MachineTheory <> i:6 var
-def 451:454 <> actC
-R468:472 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
-R461:465 StateMachines.Concepts MACHINE state proj
-R467:467 StateMachines.MachineTheory <> MachineTheory.m var
-R487:491 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
-R473:476 Coq.Init.Datatypes <> list ind
-R479:483 StateMachines.Concepts MACHINE input proj
-R485:485 StateMachines.MachineTheory <> MachineTheory.m var
-R492:496 StateMachines.Concepts MACHINE state proj
-R498:498 StateMachines.MachineTheory <> MachineTheory.m var
-binder 457:457 <> f:7
-R504:508 Coq.Unicode.Utf8_core <> ::type_scope:'∀'_x_'..'_x_','_x not
-R546:553 Coq.Unicode.Utf8_core <> ::type_scope:'∀'_x_'..'_x_','_x not
-R513:517 StateMachines.Concepts MACHINE state proj
-R519:519 StateMachines.MachineTheory <> MachineTheory.m var
-binder 509:509 <> s:8
-R532:535 Coq.Init.Datatypes <> list ind
-R538:542 StateMachines.Concepts MACHINE input proj
-R544:544 StateMachines.MachineTheory <> MachineTheory.m var
-binder 523:524 <> u':9
-R532:535 Coq.Init.Datatypes <> list ind
-R538:542 StateMachines.Concepts MACHINE input proj
-R544:544 StateMachines.MachineTheory <> MachineTheory.m var
-binder 526:528 <> u'':10
-R569:571 Coq.Init.Logic <> ::type_scope:x_'='_x not
-R554:554 StateMachines.MachineTheory <> f:7 var
-R561:564 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
-R559:560 StateMachines.MachineTheory <> u':9 var
-R565:567 StateMachines.MachineTheory <> u'':10 var
-R556:556 StateMachines.MachineTheory <> s:8 var
-R572:572 StateMachines.MachineTheory <> f:7 var
-R583:585 StateMachines.MachineTheory <> u'':10 var
-R575:575 StateMachines.MachineTheory <> f:7 var
-R579:580 StateMachines.MachineTheory <> u':9 var
-R577:577 StateMachines.MachineTheory <> s:8 var
-prf 595:598 <> run0
-R602:605 StateMachines.MachineTheory <> act0 def
-R608:610 StateMachines.Concepts MACHINE run def
-R612:612 StateMachines.MachineTheory <> MachineTheory.m var
-R630:633 StateMachines.MachineTheory <> act0 def
-prf 657:660 <> run1
-R664:667 StateMachines.MachineTheory <> act1 def
-R670:672 StateMachines.Concepts MACHINE run def
-R674:674 StateMachines.MachineTheory <> MachineTheory.m var
-R692:695 StateMachines.MachineTheory <> act1 def
-prf 719:722 <> runC
-R726:729 StateMachines.MachineTheory <> actC def
-R732:734 StateMachines.Concepts MACHINE run def
-R736:736 StateMachines.MachineTheory <> MachineTheory.m var
-R756:759 StateMachines.MachineTheory <> actC def
-R860:863 StateMachines.Concepts MACHINE pass proj
-R865:865 StateMachines.MachineTheory <> MachineTheory.m var
-R860:863 StateMachines.Concepts MACHINE pass proj
-R865:865 StateMachines.MachineTheory <> MachineTheory.m var
-sec 888:904 MachineTheory UniquenessTheorem
-var 916:919 MachineTheory.UniquenessTheorem run'
-R930:934 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
-R923:927 StateMachines.Concepts MACHINE state proj
-R929:929 StateMachines.MachineTheory <> MachineTheory.m var
-R949:953 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
-R935:938 Coq.Init.Datatypes <> list ind
-R941:945 StateMachines.Concepts MACHINE input proj
-R947:947 StateMachines.MachineTheory <> MachineTheory.m var
-R954:958 StateMachines.Concepts MACHINE state proj
-R960:960 StateMachines.MachineTheory <> MachineTheory.m var
-var 976:977 MachineTheory.UniquenessTheorem H0
-var 1004:1005 MachineTheory.UniquenessTheorem H1
-var 1032:1033 MachineTheory.UniquenessTheorem HC
-R981:984 StateMachines.MachineTheory <> act0 def
-R986:989 StateMachines.MachineTheory <> MachineTheory.UniquenessTheorem.run' var
-R1009:1012 StateMachines.MachineTheory <> act1 def
-R1014:1017 StateMachines.MachineTheory <> MachineTheory.UniquenessTheorem.run' var
-R1037:1040 StateMachines.MachineTheory <> actC def
-R1042:1045 StateMachines.MachineTheory <> MachineTheory.UniquenessTheorem.run' var
-prf 1058:1071 <> run_uniqueness
-R1075:1079 Coq.Unicode.Utf8_core <> ::type_scope:'∀'_x_'..'_x_','_x not
-R1112:1116 Coq.Unicode.Utf8_core <> ::type_scope:'∀'_x_'..'_x_','_x not
-R1084:1088 StateMachines.Concepts MACHINE state proj
-R1090:1090 StateMachines.MachineTheory <> MachineTheory.m var
-binder 1080:1080 <> s:15
-R1098:1101 Coq.Init.Datatypes <> list ind
-R1104:1108 StateMachines.Concepts MACHINE input proj
-R1110:1110 StateMachines.MachineTheory <> MachineTheory.m var
-binder 1094:1094 <> u:16
-R1125:1127 Coq.Init.Logic <> ::type_scope:x_'='_x not
-R1117:1120 StateMachines.MachineTheory <> MachineTheory.UniquenessTheorem.run' var
-R1122:1122 StateMachines.MachineTheory <> s:15 var
-R1124:1124 StateMachines.MachineTheory <> u:16 var
-R1128:1130 StateMachines.Concepts MACHINE run def
-R1132:1132 StateMachines.MachineTheory <> MachineTheory.m var
-R1134:1134 StateMachines.MachineTheory <> s:15 var
-R1136:1136 StateMachines.MachineTheory <> u:16 var
-R1221:1222 StateMachines.MachineTheory <> MachineTheory.UniquenessTheorem.H0 var
-R1221:1222 StateMachines.MachineTheory <> MachineTheory.UniquenessTheorem.H0 var
-R1250:1252 Coq.Init.Logic <> ::type_scope:x_'='_x not
-R1244:1247 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
-R1241:1241 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
-R1243:1243 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
-R1254:1257 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
-R1250:1252 Coq.Init.Logic <> ::type_scope:x_'='_x not
-R1244:1247 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
-R1241:1241 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
-R1243:1243 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
-R1254:1257 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
-R1303:1304 StateMachines.MachineTheory <> MachineTheory.UniquenessTheorem.HC var
-R1308:1308 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
-R1310:1310 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
-R1303:1304 StateMachines.MachineTheory <> MachineTheory.UniquenessTheorem.HC var
-R1308:1308 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
-R1310:1310 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
-R1303:1304 StateMachines.MachineTheory <> MachineTheory.UniquenessTheorem.HC var
-R1308:1308 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
-R1310:1310 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
-R1333:1334 StateMachines.MachineTheory <> MachineTheory.UniquenessTheorem.H1 var
-R1333:1334 StateMachines.MachineTheory <> MachineTheory.UniquenessTheorem.H1 var
-R1333:1334 StateMachines.MachineTheory <> MachineTheory.UniquenessTheorem.H1 var
-R1360:1376 StateMachines.MachineTheory MachineTheory.UniquenessTheorem <> sec
-R1383:1395 StateMachines.MachineTheory MachineTheory <> sec
+sec 114:126 <> MachineTheory
+var 138:138 MachineTheory m
+R142:148 StateMachines.Concepts <> Machine syndef
+def 178:181 <> act0
+R195:199 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R188:192 StateMachines.Concepts <> state syndef
+R194:194 StateMachines.MachineTheory <> MachineTheory.m var
+R214:218 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R200:203 Coq.Init.Datatypes <> list ind
+R206:210 StateMachines.Concepts <> input syndef
+R212:212 StateMachines.MachineTheory <> MachineTheory.m var
+R219:223 StateMachines.Concepts <> state syndef
+R225:225 StateMachines.MachineTheory <> MachineTheory.m var
+binder 184:184 <> f:2
+R231:234 Coq.Unicode.Utf8_core <> ::type_scope:'∀'_x_'..'_x_','_x not
+R246:247 Coq.Unicode.Utf8_core <> ::type_scope:'∀'_x_'..'_x_','_x not
+R239:243 StateMachines.Concepts <> state syndef
+R245:245 StateMachines.MachineTheory <> MachineTheory.m var
+binder 235:235 <> s:3
+R254:256 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R248:248 StateMachines.MachineTheory <> f:2 var
+R252:253 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R250:250 StateMachines.MachineTheory <> s:3 var
+R257:257 StateMachines.MachineTheory <> s:3 var
+def 295:298 <> act1
+R312:316 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R305:309 StateMachines.Concepts <> state syndef
+R311:311 StateMachines.MachineTheory <> MachineTheory.m var
+R331:335 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R317:320 Coq.Init.Datatypes <> list ind
+R323:327 StateMachines.Concepts <> input syndef
+R329:329 StateMachines.MachineTheory <> MachineTheory.m var
+R336:340 StateMachines.Concepts <> state syndef
+R342:342 StateMachines.MachineTheory <> MachineTheory.m var
+binder 301:301 <> f:4
+R348:352 Coq.Unicode.Utf8_core <> ::type_scope:'∀'_x_'..'_x_','_x not
+R378:380 Coq.Unicode.Utf8_core <> ::type_scope:'∀'_x_'..'_x_','_x not
+R357:361 StateMachines.Concepts <> state syndef
+R363:363 StateMachines.MachineTheory <> MachineTheory.m var
+binder 353:353 <> s:5
+R371:375 StateMachines.Concepts <> input syndef
+R377:377 StateMachines.MachineTheory <> MachineTheory.m var
+binder 367:367 <> i:6
+R388:390 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R381:381 StateMachines.MachineTheory <> f:4 var
+R385:385 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R387:387 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R386:386 StateMachines.MachineTheory <> i:6 var
+R383:383 StateMachines.MachineTheory <> s:5 var
+R391:394 StateMachines.Concepts <> pass syndef
+R396:396 StateMachines.MachineTheory <> MachineTheory.m var
+R398:398 StateMachines.MachineTheory <> s:5 var
+R400:400 StateMachines.MachineTheory <> i:6 var
+def 435:438 <> actC
+R452:456 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R445:449 StateMachines.Concepts <> state syndef
+R451:451 StateMachines.MachineTheory <> MachineTheory.m var
+R471:475 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R457:460 Coq.Init.Datatypes <> list ind
+R463:467 StateMachines.Concepts <> input syndef
+R469:469 StateMachines.MachineTheory <> MachineTheory.m var
+R476:480 StateMachines.Concepts <> state syndef
+R482:482 StateMachines.MachineTheory <> MachineTheory.m var
+binder 441:441 <> f:7
+R488:492 Coq.Unicode.Utf8_core <> ::type_scope:'∀'_x_'..'_x_','_x not
+R530:537 Coq.Unicode.Utf8_core <> ::type_scope:'∀'_x_'..'_x_','_x not
+R497:501 StateMachines.Concepts <> state syndef
+R503:503 StateMachines.MachineTheory <> MachineTheory.m var
+binder 493:493 <> s:8
+R516:519 Coq.Init.Datatypes <> list ind
+R522:526 StateMachines.Concepts <> input syndef
+R528:528 StateMachines.MachineTheory <> MachineTheory.m var
+binder 507:508 <> u':9
+R516:519 Coq.Init.Datatypes <> list ind
+R522:526 StateMachines.Concepts <> input syndef
+R528:528 StateMachines.MachineTheory <> MachineTheory.m var
+binder 510:512 <> u'':10
+R553:555 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R538:538 StateMachines.MachineTheory <> f:7 var
+R545:548 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R543:544 StateMachines.MachineTheory <> u':9 var
+R549:551 StateMachines.MachineTheory <> u'':10 var
+R540:540 StateMachines.MachineTheory <> s:8 var
+R556:556 StateMachines.MachineTheory <> f:7 var
+R567:569 StateMachines.MachineTheory <> u'':10 var
+R559:559 StateMachines.MachineTheory <> f:7 var
+R563:564 StateMachines.MachineTheory <> u':9 var
+R561:561 StateMachines.MachineTheory <> s:8 var
+prf 579:582 <> run0
+R586:589 StateMachines.MachineTheory <> act0 def
+R592:594 StateMachines.Concepts <> run syndef
+R596:596 StateMachines.MachineTheory <> MachineTheory.m var
+R614:617 StateMachines.MachineTheory <> act0 def
+prf 641:644 <> run1
+R648:651 StateMachines.MachineTheory <> act1 def
+R654:656 StateMachines.Concepts <> run syndef
+R658:658 StateMachines.MachineTheory <> MachineTheory.m var
+R676:679 StateMachines.MachineTheory <> act1 def
+prf 703:706 <> runC
+R710:713 StateMachines.MachineTheory <> actC def
+R716:718 StateMachines.Concepts <> run syndef
+R720:720 StateMachines.MachineTheory <> MachineTheory.m var
+R740:743 StateMachines.MachineTheory <> actC def
+R844:847 StateMachines.Concepts <> pass syndef
+R849:849 StateMachines.MachineTheory <> MachineTheory.m var
+R844:847 StateMachines.Concepts <> pass syndef
+R849:849 StateMachines.MachineTheory <> MachineTheory.m var
+sec 872:888 MachineTheory UniquenessTheorem
+var 900:903 MachineTheory.UniquenessTheorem run'
+R914:918 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R907:911 StateMachines.Concepts <> state syndef
+R913:913 StateMachines.MachineTheory <> MachineTheory.m var
+R933:937 Coq.Unicode.Utf8_core <> ::type_scope:x_'→'_x not
+R919:922 Coq.Init.Datatypes <> list ind
+R925:929 StateMachines.Concepts <> input syndef
+R931:931 StateMachines.MachineTheory <> MachineTheory.m var
+R938:942 StateMachines.Concepts <> state syndef
+R944:944 StateMachines.MachineTheory <> MachineTheory.m var
+var 960:961 MachineTheory.UniquenessTheorem H0
+var 988:989 MachineTheory.UniquenessTheorem H1
+var 1016:1017 MachineTheory.UniquenessTheorem HC
+R965:968 StateMachines.MachineTheory <> act0 def
+R970:973 StateMachines.MachineTheory <> MachineTheory.UniquenessTheorem.run' var
+R993:996 StateMachines.MachineTheory <> act1 def
+R998:1001 StateMachines.MachineTheory <> MachineTheory.UniquenessTheorem.run' var
+R1021:1024 StateMachines.MachineTheory <> actC def
+R1026:1029 StateMachines.MachineTheory <> MachineTheory.UniquenessTheorem.run' var
+prf 1042:1055 <> run_uniqueness
+R1059:1063 Coq.Unicode.Utf8_core <> ::type_scope:'∀'_x_'..'_x_','_x not
+R1096:1100 Coq.Unicode.Utf8_core <> ::type_scope:'∀'_x_'..'_x_','_x not
+R1068:1072 StateMachines.Concepts <> state syndef
+R1074:1074 StateMachines.MachineTheory <> MachineTheory.m var
+binder 1064:1064 <> s:15
+R1082:1085 Coq.Init.Datatypes <> list ind
+R1088:1092 StateMachines.Concepts <> input syndef
+R1094:1094 StateMachines.MachineTheory <> MachineTheory.m var
+binder 1078:1078 <> u:16
+R1109:1111 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1101:1104 StateMachines.MachineTheory <> MachineTheory.UniquenessTheorem.run' var
+R1106:1106 StateMachines.MachineTheory <> s:15 var
+R1108:1108 StateMachines.MachineTheory <> u:16 var
+R1112:1114 StateMachines.Concepts <> run syndef
+R1116:1116 StateMachines.MachineTheory <> MachineTheory.m var
+R1118:1118 StateMachines.MachineTheory <> s:15 var
+R1120:1120 StateMachines.MachineTheory <> u:16 var
+R1205:1206 StateMachines.MachineTheory <> MachineTheory.UniquenessTheorem.H0 var
+R1205:1206 StateMachines.MachineTheory <> MachineTheory.UniquenessTheorem.H0 var
+R1234:1236 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1228:1231 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R1225:1225 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R1227:1227 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R1238:1241 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1234:1236 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1228:1231 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R1225:1225 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R1227:1227 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R1238:1241 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1287:1288 StateMachines.MachineTheory <> MachineTheory.UniquenessTheorem.HC var
+R1292:1292 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R1294:1294 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R1287:1288 StateMachines.MachineTheory <> MachineTheory.UniquenessTheorem.HC var
+R1292:1292 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R1294:1294 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R1287:1288 StateMachines.MachineTheory <> MachineTheory.UniquenessTheorem.HC var
+R1292:1292 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R1294:1294 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R1317:1318 StateMachines.MachineTheory <> MachineTheory.UniquenessTheorem.H1 var
+R1317:1318 StateMachines.MachineTheory <> MachineTheory.UniquenessTheorem.H1 var
+R1317:1318 StateMachines.MachineTheory <> MachineTheory.UniquenessTheorem.H1 var
+R1344:1360 StateMachines.MachineTheory MachineTheory.UniquenessTheorem <> sec
+R1367:1379 StateMachines.MachineTheory MachineTheory <> sec

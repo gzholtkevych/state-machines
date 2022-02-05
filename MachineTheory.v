@@ -1,7 +1,6 @@
 Require Import StateMachines.Preliminaries.
 Require Import StateMachines.Concepts.
 Import ListNotations.
-Import MACHINE.
 
 Section MachineTheory.
 Variable m : Machine.
