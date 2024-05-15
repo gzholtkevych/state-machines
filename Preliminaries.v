@@ -3,11 +3,8 @@ Require Export Lists.List.
 Export ListNotations.
 
 
-Class Finitary (T : Type) : Prop :=
-fin_cert : ∃ e : list T, ∀ x : T, In x e.
-
-Instance bool_fin_cert : Finitary bool.
-Proof.
-  exists [true; false]. intro.
-  case x; [now left | right]; now left.
-Qed.
+Structure Alphabet : Type := alphabet {
+  letter :> Set;
+  eq_neq_dec : ∀ a b : letter, {a = b} + {a ≠ b};
+  fin_evidence : {enum : list letter | ∀ a : letter, In a enum}
+}.

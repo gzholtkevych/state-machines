@@ -2,24 +2,21 @@ Require Import StateMachines.Preliminaries.
 Import ListNotations.
 
 
-Module MACHINE.
-Structure Machine := mkMachine
-{ input : Set
-; state : Set
-; pass : state → input → state
-; input_fin_cert : Finitary input
+Structure Machine := machine
+{ A : Alphabet
+; Q : Set
+; do : Q → A → Q
 }.
-Fixpoint run (m : Machine)
-           (s : state m)
-           (u : list (input m))
-:= match u with []      => s
-              | i :: u' => run m (pass m s i) u' end.
-End MACHINE.
+Fixpoint run {m : Machine}
+             (q : Q m)
+             (u : list (A m))
+:= match u with []      => q
+              | a :: u' => run (do m q a) u' end.
 
-
+(*
 Module ACCEPTOR.
 Structure Acceptor {m : MACHINE.Machine} := mkAcceptor
-{ acceptant : MACHINE.state m → Prop }.
+{ acceptant : MACHINE.Q m → bool }.
 Definition acceptable {m : MACHINE.Machine}
              (a : Acceptor)
              (s : MACHINE.state m) : list (MACHINE.input m) → Prop
@@ -47,3 +44,4 @@ Notation Acceptor := ACCEPTOR.Acceptor            (only parsing).
 Notation mkAcceptor := ACCEPTOR.mkAcceptor        (only parsing).
 Notation acceptant := ACCEPTOR.acceptant          (only parsing).
 Notation acceptable := ACCEPTOR.acceptable        (only parsing).
+*)
